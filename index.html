@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="nl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARC Funnel Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="./dist/output.css" rel="stylesheet">
+    <style>
+        /* Optional: Custom scrollbar for a more polished look, works in WebKit browsers */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #2D3748; /* gray-800 */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #4A5568; /* gray-600 */
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #718096; /* gray-500 */
+        }
+    </style>
+</head>
+<body class="bg-arc-dark text-gray-100 font-sans antialiased">
+
+    <!-- Header / Nav -->
+    <header class="py-6 fixed top-0 left-0 right-0 z-50 bg-arc-dark bg-opacity-80 backdrop-blur-md">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <!-- ARC Logo Placeholder -->
+            <div class="text-2xl font-bold text-white">ARC</div>
+            <nav>
+                <a href="#contact" class="bg-arc-blue hover:bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-300">Plan een call</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex items-center justify-center pt-20 bg-gray-900" style="background-image: url('https://via.placeholder.com/1920x1080.png/111111/111111?text=Background+Placeholder'); background-size: cover; background-position: center;">
+        <!-- Background Placeholder comment is embedded in the style attribute above -->
+        <div class="container mx-auto px-6 text-center py-16 md:py-24">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
+                Krijg je niet genoeg leads uit je online aanwezigheid?
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto">
+                Je product is goed. Maar weet je markt dat ook? Als je nog niet consistent nieuwe klanten binnenhaalt via social media of advertenties, laat je omzet liggen. Wij zorgen dat je online marketing eindelijk wérkt.
+            </p>
+            <a href="#contact" class="bg-arc-blue hover:bg-blue-500 text-white font-semibold py-4 px-10 rounded-lg text-lg transition duration-300">
+                Plan een call
+            </a>
+        </div>
+    </section>
+
+    <!-- Probleem + Doelgroep Section -->
+    <section id="problem" class="py-16 md:py-24 bg-arc-dark">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white">Onze aanpak werkt voor bedrijven die klaar zijn om te groeien</h2>
+            </div>
+            <div class="max-w-3xl mx-auto text-center">
+                <p class="text-lg md:text-xl text-gray-300 leading-relaxed">
+                    Wij helpen bedrijven met een sterk product en een gezonde omzet om meer zichtbaarheid, leads en klanten te halen uit online marketing. Simpel gezegd: jij focust op je zaak. Wij zorgen voor de rest.
+                </p>
+                <!-- Optional: Icons could go here if desired, e.g. in a flex row -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Pakketselectie Section -->
+    <section id="packages" class="py-16 md:py-24 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white">Kies je groeipakket</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- PAID ADS PAKKET -->
+                <div class="bg-arc-dark p-8 rounded-lg shadow-xl border border-gray-700">
+                    <h3 class="text-2xl font-bold text-arc-blue mb-4">PAID ADS PAKKET</h3>
+                    <p class="text-gray-400 mb-6">Voor bedrijven die al actief zijn op social media.</p>
+                    <ul class="space-y-3 text-gray-300">
+                        <li class="flex items-center"><span class="text-arc-blue mr-2">✅</span> Foto- en videocontent</li>
+                        <li class="flex items-center"><span class="text-arc-blue mr-2">✅</span> Copywriting</li>
+                        <li class="flex items-center"><span class="text-arc-blue mr-2">✅</span> Gerichte advertenties</li>
+                        <li class="flex items-center"><span class="text-arc-blue mr-2">✅</span> Targeting op maat</li>
+                    </ul>
+                </div>
+                <!-- FULL PACKAGE -->
+                <div class="bg-arc-dark p-8 rounded-lg shadow-xl border border-gray-700">
+                    <h3 class="text-2xl font-bold text-arc-blue mb-4">FULL PACKAGE</h3>
+                    <p class="text-gray-400 mb-6">Voor bedrijven met weinig online aanwezigheid.</p>
+                    <ul class="space-y-3 text-gray-300">
+                        <li class="flex items-center"><span class="text-arc-blue mr-2">✅</span> Alles van het PAID ADS pakket</li>
+                        <li class="flex items-center"><span class="text-arc-blue mr-2">✅</span> Consistente social media aanwezigheid</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resultatenblok Section -->
+    <section id="results" class="py-16 md:py-24 bg-arc-dark">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white">Resultaten die tellen</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="bg-gray-900 p-8 rounded-lg shadow-lg">
+                    <div class="text-5xl text-arc-blue mb-4">📈</div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Tot 5x meer bereik</h3>
+                    <p class="text-gray-400">Binnen 90 dagen</p>
+                </div>
+                <div class="bg-gray-900 p-8 rounded-lg shadow-lg">
+                    <div class="text-5xl text-arc-blue mb-4">⏳</div>
+                    <h3 class="text-xl font-semibold text-white mb-2">30+ uren/maand bespaard</h3>
+                    <p class="text-gray-400">Focus op je core business</p>
+                </div>
+                <div class="bg-gray-900 p-8 rounded-lg shadow-lg">
+                    <div class="text-5xl text-arc-blue mb-4">🎯</div>
+                    <h3 class="text-xl font-semibold text-white mb-2">Meer leads & sollicitaties</h3>
+                    <p class="text-gray-400">Via één geoptimaliseerde funnel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to action / Conversieblok Section -->
+    <section id="contact" class="py-16 md:py-24 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white">Klaar om te starten?</h2>
+                <p class="text-lg md:text-xl text-gray-300 mt-4 max-w-2xl mx-auto">
+                    Kies hoe jij het liefst contact opneemt: Plan een call, bel ons of vul het formulier in. Je wordt snel opgevolgd door één van onze marketingexperts.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+                <!-- Calendly Embed & Links -->
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-white mb-4">Plan direct een gesprek</h3>
+                        <!-- Calendly Embed Placeholder -->
+                        <div class="bg-gray-800 w-full h-96 rounded-lg flex items-center justify-center border border-gray-700">
+                            <p class="text-gray-400 text-center p-4">Calendly Embed Area<br><span class="text-sm">(Vervang dit blok met je Calendly embed code)</span></p>
+                        </div>
+                    </div>
+                    <div class="space-y-4 text-center md:text-left">
+                         <h3 class="text-2xl font-semibold text-white mb-4">Andere opties</h3>
+                        <a href="tel:+32000000000" class="inline-block bg-arc-blue hover:bg-blue-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 mr-4 w-full md:w-auto mb-2 md:mb-0">
+                            Bel Ons Direct
+                        </a>
+                        <a href="#contact-form-modal" class="inline-block bg-gray-700 hover:bg-gray-600 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 w-full md:w-auto" onclick="document.getElementById('contact-form-modal').classList.remove('hidden'); return false;">
+                            Vul contactformulier in
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form (Initially hidden, shown as modal or separate section) -->
+                <!-- This is a basic contact form, consider a modal implementation or a dedicated page for better UX -->
+                <div id="contact-form-actual" class="bg-arc-dark p-8 rounded-lg shadow-xl border border-gray-700">
+                    <h3 class="text-2xl font-semibold text-white mb-6">Of stuur ons een bericht</h3>
+                    <form action="#" method="POST" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-300">Naam</label>
+                            <input type="text" name="name" id="name" autocomplete="name" required class="mt-1 block w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-arc-blue focus:border-arc-blue sm:text-sm text-white">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-300">E-mailadres</label>
+                            <input type="email" name="email" id="email" autocomplete="email" required class="mt-1 block w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-arc-blue focus:border-arc-blue sm:text-sm text-white">
+                        </div>
+                        <div>
+                            <label for="company" class="block text-sm font-medium text-gray-300">Bedrijf (optioneel)</label>
+                            <input type="text" name="company" id="company" autocomplete="organization" class="mt-1 block w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-arc-blue focus:border-arc-blue sm:text-sm text-white">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-300">Vraag / Bericht</label>
+                            <textarea id="message" name="message" rows="4" required class="mt-1 block w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-arc-blue focus:border-arc-blue sm:text-sm text-white"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-arc-blue hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-arc-blue transition duration-300">
+                                Verstuur Bericht
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- "Contact Form Modal" Structure -->
+    <div id="contact-form-modal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 z-50 hidden" onclick="if (event.target === this) this.classList.add('hidden')">
+        <div class="bg-arc-dark p-8 rounded-lg shadow-xl border border-gray-700 w-full max-w-lg relative">
+            <button onclick="document.getElementById('contact-form-modal').classList.add('hidden')" class="absolute top-4 right-4 text-gray-400 hover:text-white text-2xl">&times;</button>
+            <h3 class="text-2xl font-semibold text-white mb-6">Neem contact op</h3>
+             <form action="#" method="POST" class="space-y-6">
+                <div>
+                    <label for="modal-name" class="block text-sm font-medium text-gray-300">Naam</label>
+                    <input type="text" name="modal-name" id="modal-name" autocomplete="name" required class="mt-1 block w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-arc-blue focus:border-arc-blue sm:text-sm text-white">
+                </div>
+                <div>
+                    <label for="modal-email" class="block text-sm font-medium text-gray-300">E-mailadres</label>
+                    <input type="email" name="modal-email" id="modal-email" autocomplete="email" required class="mt-1 block w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-arc-blue focus:border-arc-blue sm:text-sm text-white">
+                </div>
+                <div>
+                    <label for="modal-company" class="block text-sm font-medium text-gray-300">Bedrijf (optioneel)</label>
+                    <input type="text" name="modal-company" id="modal-company" autocomplete="organization" class="mt-1 block w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-arc-blue focus:border-arc-blue sm:text-sm text-white">
+                </div>
+                <div>
+                    <label for="modal-message" class="block text-sm font-medium text-gray-300">Vraag / Bericht</label>
+                    <textarea id="modal-message" name="modal-message" rows="4" required class="mt-1 block w-full px-3 py-2 bg-gray-800 border border-gray-700 rounded-md shadow-sm placeholder-gray-500 focus:outline-none focus:ring-arc-blue focus:border-arc-blue sm:text-sm text-white"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-arc-blue hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-arc-blue transition duration-300">
+                        Verstuur Bericht
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 text-center">
+        <div class="container mx-auto px-6">
+            <p class="text-gray-500">&copy; <script>document.write(new Date().getFullYear())</script> ARC Agency. Alle rechten voorbehouden.</p>
+            <!-- Placeholder for social media icons or other links -->
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                // Only prevent default and scroll if it's an internal link and not just "#" or a modal trigger
+                if (href.startsWith('#') && href.length > 1 && !this.getAttribute('onclick')) {
+                    e.preventDefault();
+                    const targetElement = document.querySelector(href);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+
+</body>
+</html> 

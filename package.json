@@ -1,0 +1,23 @@
+{
+  "name": "arcfunnelpage",
+  "version": "1.0.0",
+  "description": "Landing page for ARC Agency",
+  "main": "index.html",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css"
+  },
+  "keywords": [
+    "landing",
+    "page",
+    "tailwind",
+    "css"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+} 
